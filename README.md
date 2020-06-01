@@ -10,4 +10,5 @@ In recent years, PowerShell is increasingly reported to appear in a variety of c
 
 近年来，越来越多的报道显示，PowerShell被广泛的用于各种网络攻击。这些攻击包括高级持续性威胁、勒索病毒、网络钓鱼邮件等等。基于PowerShell的攻击，利用了PowerShell的动态性，构造了复杂的混淆模式，绕过了检测。为了克服这一难题，我们提出来第一个轻量且有效的解混淆方案，并基于解混淆后的脚本构造了基于攻击语义的检测系统。实验显示，通过解混淆，我们可以将混淆后脚本和原始脚本之间的相似度从仅0.5％提高到了近80％。同时解混淆过程有效的改善了已有系统的检测效率，Windows Defender和VirusTotal的攻击检测率分别从0.3％和2.65％大幅增加到75.0％和90.0％。利用我们提取的31条语义签名，检测率最高可达到92.3%。
 
+## System Overview
 ![An overview of the proposed subtree-based deobfuscation for PowerShell scripts.](https://github.com/li-zhenyuan/PowerShellDeobfuscation/raw/master/Images/SystemStructure.png)
